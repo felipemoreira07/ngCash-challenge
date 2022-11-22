@@ -18,7 +18,7 @@ DATABASE_URL="postgresql://sammy:your_password@localhost:5432/my-blog?schema=pub
 JWT_ACCESS_SECRET=SECRET123
 JWT_REFRESH_SECRET=ANOTHER_SECRET123
 - Para iniciar o container da aplicação, rode (linux): sudo docker compose up
-- Para iniciar a aplicação, rode: npx tsc-node src/index.ts
+- Para iniciar a aplicação, rode: npx ts-node src/index.ts
 
 ## Instruções para uma boa experiência na plataforma
 
